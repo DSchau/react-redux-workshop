@@ -21,6 +21,8 @@
     "test": "echo \"We should probably write some tests\""
   },
   "devDependencies": {
+    "@mdx-js/loader": "~0.9.0",
+    "@mdx-js/mdx": "~0.9.0",
     "autoprefixer": "~8.3.0",
     "babel": "~6.23.0",
     "babel-core": "~6.26.3",

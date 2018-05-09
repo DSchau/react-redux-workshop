@@ -55,18 +55,7 @@ module.exports = function webpackConfig() {
         },
         {
           test: /\.(md|markdown)/,
-          use: [
-            'html-loader',
-            {
-              loader: 'markdown-loader',
-              options: {
-                highlight(code) {
-                  return require('highlight.js').highlightAuto(code).value;
-                },
-                sanitize: false
-              }
-            }
-          ]
+          use: ['babel-loader', '@mdx-js/loader']
         },
         {
           test: /\.(jpe?g|png|gif|mp4)/,
