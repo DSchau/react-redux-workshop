@@ -15,5 +15,6 @@
     "Dustin Schau <dustin.schau@objectpartners.com>",
     "Derek Meyer"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": ["labs", "slidedeck"]
 }

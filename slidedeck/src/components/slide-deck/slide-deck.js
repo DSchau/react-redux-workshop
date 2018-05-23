@@ -53,7 +53,7 @@ export class SlideDeck extends Component {
     );
   }
 
-  getSectionProps(html) {
+  getSectionProps(html = '') {
     const section = html.match(/<section[^>]+/);
     if (!section) {
       return {};
